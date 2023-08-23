@@ -63,7 +63,7 @@ Quando a eduzz envia uma mensagem, ela gera uma assinatura baseada no conteúdo 
 
 O cabeçalho x-signature é gerado a partir da seguinte função (disponível em todas as linguagens de programação):
 
-`hmac('sha256`, secret, bodyDaRequest)`
+```hmac('sha256`, secret, bodyDaRequest)```
 
 Se o valor de retorno dessa função for identico ao que está no header x-signature, a mensagem recebida é legítima.
 
