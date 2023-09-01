@@ -1,12 +1,16 @@
-# aula favoritada
+# Aluno iniciou a aula
 
 ## Exemplo
 
 ```json
 {
     "id": "lnzj8tmh47nblaxdbr8y0vdh",
-    "event": "nutror.lesson_saved",
+    "event": "nutror.notation_created",
     "data": {
+        "lesson": {
+            "id": "t35v9qoifjbfbagx7zr37ykh",
+            "title": "Parte 1 - Ingredientes",
+        },
         "courses": [
             {
                 "hash": "jueq2plrng753v5yn1y2r7x5",
@@ -41,3 +45,5 @@
 | data.producer.eduzzId | string | Id do produtor no MyEduzz           |
 | data.learner.email    | string | Email do aluno                      |
 | data.learner.name     | string | Nome do aluno                       |
+| data.lesson.id        | string | Id da aula atual                   |
+| data.lesson.title     | string | Nome da aula atual                 |

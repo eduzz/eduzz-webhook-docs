@@ -1,15 +1,15 @@
-# aula favoritada
+# Aluno completou 100% da aula
 
 ## Exemplo
 
 ```json
 {
-    "id": "lnzj8tmh47nblaxdbr8y0vdh",
-    "event": "nutror.lesson_saved",
+    "id": "p8djscz8lg5k76avlyihkudy",
+    "event": "nutror.complete_lesson_100",
     "data": {
         "courses": [
             {
-                "hash": "jueq2plrng753v5yn1y2r7x5",
+                "hash": "up0e6q9iyrd6mpcw74js5i71",
                 "title": "Como se tornar padeiro"
             }
         ],
@@ -22,7 +22,10 @@
             "email": "email-aluno@host.com",
             "name": "Nome do aluno"
         },
-        "createdAt": "2023-08-31T18:34:23.023Z"
+        "createdAt": "2023-08-31T18:34:23.023Z",
+        "content": {
+            "progress": 100
+        }
     },
     "sentDate": "2023-08-31T18:34:23.023Z"
 }
@@ -41,3 +44,4 @@
 | data.producer.eduzzId | string | Id do produtor no MyEduzz           |
 | data.learner.email    | string | Email do aluno                      |
 | data.learner.name     | string | Nome do aluno                       |
+| data.content.progress | number | Percentual de progresso atual       |

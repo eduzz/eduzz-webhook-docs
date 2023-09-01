@@ -1,15 +1,15 @@
-# aula favoritada
+# Aluno acessou a comunidade
 
 ## Exemplo
 
 ```json
 {
-    "id": "lnzj8tmh47nblaxdbr8y0vdh",
-    "event": "nutror.lesson_saved",
+    "id": "sp18cyp4dghx8irfss4w8uvi",
+    "event": "nutror.community_viewed",
     "data": {
         "courses": [
             {
-                "hash": "jueq2plrng753v5yn1y2r7x5",
+                "hash": "sb3cst68q8amfe6cfaby6rqq",
                 "title": "Como se tornar padeiro"
             }
         ],
