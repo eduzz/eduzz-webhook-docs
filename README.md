@@ -8,9 +8,9 @@ O formato do json será sempre o seguinte:
 
 ```json
 {
-    "id": "id_do_evento",
-    "event": "app.nome_do_evento",
-    "data": { }, // dados do evento,
+    "id": "z154l2pvk6jltotg0xy86glx" // id do evento,
+    "event": "nutror.lesson_started" // nome do evento,
+    "data": {}, // dados do evento,
     "sentDate": "2023-08-31T18:34:23.023Z" // data do evento
 }
 ```
