@@ -1,6 +1,6 @@
 # Webhook Eduzz
 
-O Webhook da Eduzz permite que você receba requisições **HTTP** em sua aplicação sempre que um novo evento acontecer em sua conta. Você pode configurar uma integração para receber diversos eventos de diversas aplicações diferentes da Eduzz, webhook da Eduzz pode ser acessado em: **https://integrations.eduzz.com/webhook/configs**.
+O Webhook da Eduzz permite que você receba requisições **HTTP** em sua aplicação sempre que um novo evento acontecer em sua conta. Você pode configurar uma integração para receber diversos eventos de diversas aplicações diferentes da Eduzz: **https://integrations.eduzz.com/webhook/configs**.
 
 ## Eventos e payloads
 
