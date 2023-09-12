@@ -1,70 +1,109 @@
 # Webhook Eduzz
 
-O Webhook da Eduzz permite que você receba eventos de todas as aplicações da plataforma. Você pode configurar uma ou dezenas de integrações para que seu negócio consiga responder da melhor forma possível as suas espectativas
+O Webhook da Eduzz permite que você receba requisições **HTTP** em sua aplicação sempre que um novo evento acontecer em sua conta. Você pode configurar uma integração para receber diversos eventos de diversas aplicações diferentes da Eduzz: **https://integrations.eduzz.com/webhook/configs**.
 
+## Eventos e payloads
 
-## Onde posso criar um webhook?
+O formato do json será sempre o seguinte:
 
-Para configurar uma nova integração, basta conferir o **[sistema de integra
-cões da eduzz](https://integrations.eduzz.com)**.
+```json
+{
+    "id": "z154l2pvk6jltotg0xy86glx" // id do evento,
+    "event": "nutror.lesson_started" // nome do evento,
+    "data": {}, // dados do evento,
+    "sentDate": "2023-08-31T18:34:23.023Z" // data do evento
+}
+```
 
-![Tela de listagens de configurações](./images/integrations_configs.png)
+Os eventos disponíveis atualmente são os seguintes:
 
-## Criando uma nova configuração
+ - **Nutror**
+    - **[certificate_viewed](./events/nutror/certificate_viewed.md)**
+    - **[comment_created](./events/nutror/comment_created.md)**
+    - **[community_viewed](./events/nutror/community_viewed.md)**
+    - **[complete_lesson_25](./events/nutror/complete_lesson_25.md)**
+    - **[complete_lesson_50](./events/nutror/complete_lesson_50.md)**
+    - **[complete_lesson_100](./events/nutror/complete_lesson_100.md)**
+    - **[complete_lesson_75](./events/nutror/complete_lesson_75.md)**
+    - **[file_downloaded](./events/nutror/file_downloaded.md)**
+    - **[lesson_saved](./events/nutror/lesson_saved.md)**
+    - **[lesson_started](./events/nutror/lesson_started.md)**
+    - **[lesson_rated](./events/nutror/lesson_rated.md)**
+    - **[lesson_watched](./events/nutror/lesson_watched.md)**
+    - **[enrollment_created](./events/nutror/enrollment_created.md)**
+    - **[module_completed](./events/nutror/module_completed.md)**
+    - **[notation_created](./events/nutror/notation_created.md)**
 
-Ná tela de configurações você encontra um botão para cadastrar suas integrações
+## Como configurar um webhook
 
-![Botão para criar integração](./images/integrations_configs_create.png)
+Ao acessar o webhook, a seguinte tela de listagem de configurações será exibida:
 
-Ao apertar este botão você vai para a tela de cadastro:
+![listagem_de_configuracoes_vazia](./images/subscription/empty_list.png)
 
-![Botão para criar integração](./images/integrations_create.png)
+Para cadastrar uma nova integração, basta acessar o **[formulário de cadastro](https://integrations.eduzz.com/webhook/new)** na tela de listagem de configurações clicando em **"+ Nova configuração"**, então, o seguinte formulário será exibido:
 
-Os campos são os seguintes:
+![imagem_formulario_cadastro](./images/subscription/form_new_empty.png)
 
-1. *Nome da Configuração*: Aqui você dá um nome que seja claro para descrever essa configuração
-2. *Chave de acesso*: Nesse campo você seleciona a [secret](/secret) que será usado para assinar as mensagens enviadas para o seu sistema
-3. *URL para envio dos dados*: URL onde será enviado os payloads. É importante que seja executado o teste para garantir que a URL está retornando um Status HTTP válido (200 - 299)
-4. *Máximo de eventos enviados em paralelo para a URL*: A Eduzz é pioneira no envio controlado de webhooks para os parceiros. Em um grande lançamento pode acontecer da quantidade de envios tornar o seu sistema indisponível. Com essa configuração você consegue definir um limite de envios e garante que sua aplicação não vai cair devido ao auto volume. Pode ficar tranquilo que você vai receber todos os eventos.
-5. *Quais eventos você deseja receber?*: Aqui você escolhe quais eventos você quer receber na sua URL
-6. Pressione o botão *Criar Configuração* e veja ela criada na lista.
+É possível para o usuário preencher os seguintes campos:
 
-### Ativando uma configuração
+- **Nome da configuração:** Uma descrição para a sua configuração.
 
-Ao criar uma nova configuração, ela é criada com o status *disabled*. Ao clicar na ação de ativar, será enviado um evento de *ping* para ver se sua API responde corretamente. Caso ela responda sua configuração será ativada com sucesso.
+- **Chave de acesso:** Nesse campo, é possível escolher qual chave de autenticação será utilizada para assinar as mensagens que serão enviadas.
 
-## Histórico de Envios
+- **URL para envio dos dados:** URL para onde os dados serão enviados. É importante realizar um teste para garantir que a URL esteja retornando um status HTTP válido (códigos 200 a 299).
 
-Ao clicar no item de "Histórico de Envios" no menu, você será apresentado a uma tela com os últimos envios para o seu endpoint.
+- **Máximo de eventos enviados em paralelo para a URL:** A Eduzz é pioneira no envio controlado de webhooks para os parceiros. Durante um grande lançamento, pode acontecer de a quantidade de envios tornar o seu sistema indisponível. Com essa configuração, você consegue definir um limite de envios e garante que sua aplicação não vai cair devido ao alto volume. Pode ficar tranquilo, você receberá todos os eventos.
 
-Na tabela você encontra alguns detalhes, como: Situação do Envio, ID do evento, URL que foi enviado, o evento e o último status de resposta
+- **Quais eventos você deseja receber?:** Você pode escolher quais eventos serão enviados para sua URL, de diversas aplicações.
 
-![Histórico de envios](./images/integrations_history.png)
+**Segue exemplo de formulário preenchido:**
 
-Se você clicar nos 3 pontinhos de um item, vai aparecer um menu onde você pode fazer o reenvio ou ver os detalhes do evento.
+![imagem_formulario_cadastro_preenchido](./images/subscription/form_new_filled.png)
 
-![Detalhes do envio](./images/integrations_history_details.png)
+Não se esqueça de clicar em **"Verificar URL"** para testar se a url retorna status HTTP válido (códigos 200 a 299), caso contrário não será possível cadastrar sua configuração
 
-Na tela de detalhes você tem várias informações inportantes, como a data do envio, número de tentativas, payload enviado, resposta da sua API, os metadados e o tempo que sua API levou para responder esse evento.
+Então, basta clicar em "Criar configuração" e sua configuração será salva com sucesso.
 
-![Filtros do histórico](./images/integrations_history_filters.png)
+![imagem_cadastrada_com_sucesso](./images/subscription/list_not_empty.png)
 
-A tela de histórico ainda tem vários filtros para te ajudar a encontrar um evento específico. Os filtros avançados oferecem ainda mais possiblidades, podendo filtrar eventos por metadados, situações, configurações específicas e eventos específicos. Tudo em multipla escolha para dar mais possibilidades
+### Ativando uma url
 
-## Chaves de Acesso
+Ao criar uma nova configuração, ela é criada com o status **desativado**. Ao clicar na ação de ativar, será enviado um evento falso de **ping**, apenas para verificar se sua API responde corretamente. Caso ela responda, sua configuração será ativada com sucesso.
 
-Como os webhooks são enviados em URLs públicas pela internet, não tem como você evitar que alguem mal intencionado tente enviar um evento falso se passando pela Eduzz. Por isso a gente criou essa tela onde você consegue criar chaves para, assim, conseguir validar que o evento veio realmente da eduzz.
+![imagem_ativada_com_sucesso](./images/subscription/list_not_empty_active.png)
 
-![Secrets](./images/integrations_keys.png)
+### Histórico de Envios
 
-Quando a eduzz envia uma mensagem, ela gera uma assinatura baseada no conteúdo da mensagem e envia essa assinatura via cabeçalho HTTP. Como somente você e a eduzz conhecem essas chaves, você consegue recalcular essa assinatura e garantir que a mensagem é legitima
+Ao clicar no item "Histórico de Envios" no menu, você será direcionado a uma tela com os envios mais recentes para o seu endpoint.
+
+Na tabela, você encontrará alguns detalhes, tais como: Situação do Envio, ID do evento, URL que foi enviada, o tipo de evento e o último status de resposta.
+
+![imagem_historico_envio](./images/history/list.png)
+
+Clicando em ações no item da listagem, você poderá reenviar ou visualizar os detalhes do evento.
+
+![imagem_detalhe_envio](./images/history/details.png)
+
+Na tela de detalhes, você encontrará várias informações importantes, como a data do envio, número de tentativas, payload enviado, resposta da sua API, os metadados e o tempo que sua API levou para responder a esse evento.
+
+![imagem_filtros_avançados](./images/history/filters.png)
+
+A tela de histórico também possui diversos filtros para auxiliar na busca por um evento específico. Os filtros avançados oferecem ainda mais possibilidades, permitindo filtrar eventos por metadados, situações, configurações específicas e eventos específicos. Tudo em múltipla escolha para proporcionar mais opções.
+
+### Segurança
+
+Como os webhooks são enviados para URLs públicas pela internet, não é possível evitar que alguém mal intencionado tente enviar um evento falso, fingindo ser da Eduzz. É por isso que criamos essa tela, onde você pode gerar chaves para validar se o evento realmente originou-se da Eduzz.
+
+![imagem_listagem_chaves](./images/secret/list.png)
+
+Quando a Eduzz envia uma mensagem, ela gera uma assinatura com base no conteúdo da mensagem e envia essa assinatura pelo cabeçalho HTTP. Como somente você e a Eduzz conhecem essas chaves, você pode recalcular essa assinatura e garantir a autenticidade da mensagem.
 
 ![Histórico de envios](./images/integrations_signature.png)
 
-O cabeçalho x-signature é gerado a partir da seguinte função (disponível em todas as linguagens de programação):
+O cabeçalho x-signature é gerado usando a seguinte função (disponível em todas as linguagens de programação):
 
-```hmac('sha256`, secret, bodyDaRequest)```
+```hmac('sha256', chave_secreta, corpo_da_requisição)```
 
-Se o valor de retorno dessa função for identico ao que está no header x-signature, a mensagem recebida é legítima.
+Se o valor resultante dessa função for idêntico ao valor no cabeçalho x-signature, a mensagem recebida é legítima.
 
-Você também pode cadastrar quantas chaves você quiser, isso permite que, caso você queira enviar webhooks para sistemas de terceiros, esses envios sejam feitos com chaves específicas e isso aumenta a sua segurança.
+Você também pode cadastrar quantas chaves desejar. Isso permite que, caso deseje enviar webhooks para sistemas de terceiros, esses envios sejam autenticados com chaves específicas, aumentando ainda mais a segurança.
