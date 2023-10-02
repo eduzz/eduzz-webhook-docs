@@ -7,21 +7,19 @@
     "id": "d4neemljy87rv3og472ag6hl",
     "event": "nutror.certificate_viewed",
     "data": {
-        "courses": [
-            {
-                "hash": "aypl9x4gbt2na1pfgr7mr3kv",
-                "title": "Como se tornar padeiro"
-            }
-        ],
         "producer": {
-            "email": "seu-email@host.com",
-            "name": "Seu Nome",
-            "eduzzId": 91823745
+            "email": "fulano@eduzz.com",
+            "name": "Fulano da Silva"
         },
         "learner": {
-            "email": "email-aluno@host.com",
-            "name": "Nome do aluno"
-        }
+            "email": "learner@eduzz.com",
+            "name": "Ciclano da Silva"
+        },
+        "course": {
+            "hash": "a3cc1883deab35a35dfc4e3dbc9bbc8c65dc5942",
+            "title": "Título do Curso"
+        },
+        "createdAt": "2023-09-06 17:32:14"
     },
     "sentDate": "2023-08-31T18:34:23.023Z"
 }
@@ -33,11 +31,10 @@
 |-----------------------|--------|-------------------------------------|
 | id                    | string | Id do evento                        |
 | event                 | string | Nome do evento (certificate_viewed) |
-| data.courses.0.hash   | string | Hash identificador do curso         |
-| data.courses.0.title  | string | Nome do curso                       |
+| data.createdAt        | string | Data da criação do evento           |
+| data.course.hash      | string | Hash identificador do curso         |
+| data.course.title     | string | Nome do curso                       |
 | data.producer.email   | string | Email do produtor                   |
 | data.producer.name    | string | Nome do produtor                    |
-| data.producer.eduzzId | string | Id do produtor no MyEduzz           |
 | data.learner.email    | string | Email do aluno                      |
 | data.learner.name     | string | Nome do aluno                       |
-
