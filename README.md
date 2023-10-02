@@ -21,16 +21,14 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[certificate_viewed](./events/nutror/certificate_viewed.md)**
     - **[comment_created](./events/nutror/comment_created.md)**
     - **[community_viewed](./events/nutror/community_viewed.md)**
-    - **[complete_lesson_25](./events/nutror/complete_lesson_25.md)**
-    - **[complete_lesson_50](./events/nutror/complete_lesson_50.md)**
-    - **[complete_lesson_100](./events/nutror/complete_lesson_100.md)**
-    - **[complete_lesson_75](./events/nutror/complete_lesson_75.md)**
+    - **[enrollment_created](./events/nutror/enrollment_created.md)**
     - **[file_downloaded](./events/nutror/file_downloaded.md)**
+    - **[inactive_student](./events/nutror/inactive_student.md)**
+    - **[learner_help](./events/nutror/learner_help.md)**
+    - **[lesson_rated](./events/nutror/lesson_rated.md)**
     - **[lesson_saved](./events/nutror/lesson_saved.md)**
     - **[lesson_started](./events/nutror/lesson_started.md)**
-    - **[lesson_rated](./events/nutror/lesson_rated.md)**
     - **[lesson_watched](./events/nutror/lesson_watched.md)**
-    - **[enrollment_created](./events/nutror/enrollment_created.md)**
     - **[module_completed](./events/nutror/module_completed.md)**
     - **[notation_created](./events/nutror/notation_created.md)**
 
