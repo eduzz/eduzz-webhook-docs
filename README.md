@@ -32,6 +32,11 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[module_completed](./events/nutror/module_completed.md)**
     - **[notation_created](./events/nutror/notation_created.md)**
 
+ - **MyEduzz Subscriptions**
+    - **[contract_created](./events/myeduzz/subscriptions/contract_created.md)**
+    - **[contract_updated](./events/myeduzz/subscriptions/contract_updated.md)**
+    - **[status_updated](./events/myeduzz/subscriptions/status_updated.md.md)**
+
 ## Como configurar um webhook
 
 Ao acessar o webhook, a seguinte tela de listagem de configurações será exibida:
