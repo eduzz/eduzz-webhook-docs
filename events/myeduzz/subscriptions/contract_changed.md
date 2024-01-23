@@ -5,7 +5,7 @@
 ```json
 {
   "id": "d4neemljy87rv3og472ag6hl",
-  "event": "subscriptions.status_updated",
+  "event": "subscriptions.contract_changed",
   "sentDate": "2023-08-31T18:34:23.023Z",
   "data": {
     "changeType": "negotiation",
@@ -79,7 +79,7 @@
 | Campo                                        | Tipo    | Descrição                               |
 | -------------------------------------------- | ------- | --------------------------------------- |
 | id                                           | string  | Id do evento                            |
-| event                                        | string  | Nome do evento (status_updated)         |
+| event                                        | string  | Nome do evento (contract_changed)       |
 | sentDate                                     | string  | Data do envio                           |
 | data.changeType                              | string  | Tipo de atualização do contrato         |
 | data.producer.id                             | string  | Id do produtor                          |
