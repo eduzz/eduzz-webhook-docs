@@ -32,6 +32,16 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[module_completed](./events/nutror/module_completed.md)**
     - **[notation_created](./events/nutror/notation_created.md)**
 
+ - **Blinket**
+    - **[attendance_added](./events/blinket/attendance_added.md)**
+    - **[attendance_assigned](./events/blinket/attendance_assigned.md)**
+    - **[attendance_canceled](./events/blinket/attendance_canceled.md)**
+    - **[attendance_edited](./events/blinket/attendance_edited.md)**
+    - **[attendances_printed](./events/blinket/attendances_printed.md)**
+    - **[checkin](./events/blinket/checkin.md)**
+    - **[tag_changed](./events/blinket/tag_changed.md)**
+    - **[ticket_edited](./events/blinket/ticket_edited.md)**
+
 ## Como configurar um webhook
 
 Ao acessar o webhook, a seguinte tela de listagem de configurações será exibida:
