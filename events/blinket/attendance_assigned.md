@@ -58,4 +58,4 @@
 | data.participant.assigned        | boolean | Ingresso está atribuído              |
 | data.participant.manuallyCreated | boolean | Ingresso foi criado manualmente      |
 | data.participant.checkInAt       | string  | Data que o checkin foi realizado     |
-| data.createdAt                   | string  | Data da criação do evento            |
+| data.createdAt                   | string  | Data de criação do webhook           |

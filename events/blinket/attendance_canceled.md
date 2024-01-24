@@ -58,4 +58,4 @@
 | data.participant.phone           | string  | Telefone do participante             |
 | data.participant.status          | string  | Status do ingresso                   |
 | data.participant.manuallyCreated | boolean | Ingresso foi criado manualmente      |
-| data.createdAt                   | string  | Data da criação do evento            |
+| data.createdAt                   | string  | Data de criação do webhook           |

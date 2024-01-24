@@ -70,4 +70,4 @@
 | data.batches[0].endSalesAt      | string  | Data de final de vendas do lote       |
 | data.batches[0].price.currency  | string  | Moeda do lote                         |
 | data.batches[0].price.value     | string  | Preço do lote                         |
-| data.createdAt                  | string  | Data da criação do evento             |
+| data.createdAt                  | string  | Data de criação do webhook            |

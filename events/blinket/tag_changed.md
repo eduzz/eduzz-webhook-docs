@@ -60,4 +60,4 @@
 | data.participant.manuallyCreated | boolean | Ingresso foi criado manualmente     |
 | data.participant.checkInAt       | string  | Data que o checkin foi realizado    |
 | data.participant.tags[0]         | string  | Nome do marcador                    |
-| data.createdAt                   | string  | Data da criação do evento           |
+| data.createdAt                   | string  | Data de criação do webhook          |

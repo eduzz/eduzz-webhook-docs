@@ -44,4 +44,4 @@
 | data.participants[0].name        | string | Nome do participante                |
 | data.participants[0].batchName   | string | Nome do lote                        |
 | data.participants[0].checkInLink | string | Link para o checkin                 |
-| data.createdAt                   | string | Data da criação do evento           |
+| data.createdAt                   | string | Data de criação do webhook          |
