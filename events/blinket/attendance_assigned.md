@@ -9,29 +9,29 @@
   "sentDate": "2024-01-20T15:00:00.000Z",
   "data": {
     "producer": {
-		"id": "1234",
-    "name": "QA Blinket",
-    "email": "qa-blinket@eduzz.com"
-  },
-  "event": {
-    "id": "9b056848-beb0-44ff-9e76-d3ac131b6f50",
-    "name": "Teste evento",
-    "type": "online"
-  },
-  "participant": {
-		"inviteKey": "17337976",
-    "name": "Pessoa Teste",
-    "email": "test@test.com",
-    "phone": "+5599999999999",
-		"document": {
-      "type": "cpf",
-      "number": "99999999999"
+      "id": "1234",
+      "name": "João Silva",
+      "email": "joaosilva@teste.com"
     },
-    "status": "paid",
-    "assigned": true,
-    "manuallyCreated": false,
-		"checkInAt": null,
-  }
+    "event": {
+      "id": "9b056848-beb0-44ff-9e76-d3ac131b6f50",
+      "name": "Teste evento",
+      "type": "online"
+    },
+    "participant": {
+      "inviteKey": "99999999",
+      "name": "Maria Silva",
+      "email": "mariasilva@teste.com",
+      "phone": "+5599999999999",
+      "document": {
+        "type": "cpf",
+        "number": "99999999999"
+      },
+      "status": "paid",
+      "assigned": true,
+      "manuallyCreated": false,
+      "checkInAt": null
+    },
     "createdAt": "2024-01-20T15:00:00.000Z"
   }
 }

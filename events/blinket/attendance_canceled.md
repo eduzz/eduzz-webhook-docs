@@ -10,18 +10,8 @@
   "data": {
     "producer": {
       "id": "1234",
-      "name": "QA Blinket",
-      "email": "qa-blinket@eduzz.com"
-    },
-    "event": {
-      "id": "9b056848-beb0-44ff-9e76-d3ac131b6f50",
-      "name": "Teste evento",
-      "type": "online"
-    },
-    "producer": {
-      "id": "1234",
-      "name": "QA Blinket",
-      "email": "qa-blinket@eduzz.com"
+      "name": "João Silva",
+      "email": "joaosilva@teste.com"
     },
     "event": {
       "id": "9b056848-beb0-44ff-9e76-d3ac131b6f50",
@@ -29,9 +19,9 @@
       "type": "online"
     },
     "participant": {
-      "inviteKey": "17337976",
-      "name": "Pessoa Teste",
-      "email": "test@test.com",
+      "inviteKey": "99999999",
+      "name": "Maria Silva",
+      "email": "mariasilva@test.com",
       "phone": "+5599999999999",
       "status": "canceled",
       "manuallyCreated": false

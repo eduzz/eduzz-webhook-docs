@@ -10,8 +10,8 @@
   "data": {
     "producer": {
       "id": "1234",
-      "name": "QA Blinket",
-      "email": "qa-blinket@eduzz.com"
+      "name": "João Silva",
+      "email": "joaosilva@teste.com"
     },
     "event": {
       "id": "9b056848-beb0-44ff-9e76-d3ac131b6f50",
@@ -31,14 +31,14 @@
       }
     },
     "buyer": {
-      "name": "Teste QA Eduzz",
-      "email": "testeeduzzqa@eduzz.com",
+      "name": "Maria Silva",
+      "email": "mariasilva@teste.com",
       "phone": "+5515999999999"
     },
     "participant": {
-      "inviteKey": "17337976",
-      "name": "Teste QA Eduzz",
-      "email": "testeeduzzqa@eduzz.com",
+      "inviteKey": "99999999",
+      "name": "Maria Silva",
+      "email": "mariasilva@teste.com",
       "phone": "+5515999999999",
       "document": {
         "type": "cpf",
@@ -48,7 +48,7 @@
       "assigned": false,
       "manuallyCreated": false,
       "checkInAt": null,
-      "checkInLink": "https://blinket.testzz.ninja/confirm/9b0f22c4-94fe-4a47-859a-f48987293d38"
+      "checkInLink": "https://url.confirmacao/confirm"
     },
     "createdAt": "2024-01-20T15:00:00.000Z"
   }

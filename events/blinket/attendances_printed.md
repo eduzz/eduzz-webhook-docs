@@ -10,19 +10,19 @@
   "data": {
     "producer": {
       "id": "1234",
-      "name": "QA Blinket",
-      "email": "qa-blinket@eduzz.com"
+      "name": "João Silva",
+      "email": "joaosilva@teste.com"
     },
     "event": {
       "id": "9b056848-beb0-44ff-9e76-d3ac131b6f50",
-      "name": "Teste evento atualizacao titulo",
+      "name": "Teste evento",
       "type": "online"
     },
     "participants": [
       {
-        "name": "Teste QA Eduzz",
+        "name": "Maria Silva",
         "batchName": "Pago",
-        "checkInLink": "https://blinket.testzz.ninja/confirm/9b0f22c4-94fe-4a47-859a-f48987293d38"
+        "checkInLink": "https://url.confirmacao/confirm"
       }
     ],
     "createdAt": "2024-01-20T15:00:00.000Z"

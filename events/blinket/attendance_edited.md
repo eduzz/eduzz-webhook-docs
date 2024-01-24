@@ -10,8 +10,8 @@
   "data": {
     "producer": {
       "id": "1234",
-      "name": "QA Blinket",
-      "email": "qa-blinket@eduzz.com"
+      "name": "João Silva",
+      "email": "joaosilva@teste.com"
     },
     "event": {
       "id": "9b056848-beb0-44ff-9e76-d3ac131b6f50",
@@ -19,9 +19,9 @@
       "type": "online"
     },
     "participant": {
-      "inviteKey": "17337976",
-      "name": "Teste QA Eduzz",
-      "email": "testeeduzzqa@eduzz.com",
+      "inviteKey": "99999999",
+      "name": "Maria Silva",
+      "email": "mariasilva@teste.com",
       "phone": "+5515999999999",
       "document": {
         "type": "cpf",
