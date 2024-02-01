@@ -39,7 +39,7 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[attendance_edited](./events/blinket/attendance_edited.md)**
     - **[attendances_printed](./events/blinket/attendances_printed.md)**
     - **[checkin](./events/blinket/checkin.md)**
-    - **[tag_changed](./events/blinket/tag_changed.md)**
+    - **[attendance_tag_changed](./events/blinket/attendance_tag_changed.md)**
     - **[ticket_edited](./events/blinket/ticket_edited.md)**
 
 ## Como configurar um webhook

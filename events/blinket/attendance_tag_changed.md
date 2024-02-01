@@ -5,7 +5,7 @@
 ```json
 {
   "id": "110c266606f74239a894d3a2352507ee",
-  "event": "blinket.tag_changed",
+  "event": "blinket.attendance_tag_changed",
   "sentDate": "2024-01-20T15:00:00.000Z",
   "data": {
     "producer": {
