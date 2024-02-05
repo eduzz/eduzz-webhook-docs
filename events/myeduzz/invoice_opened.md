@@ -4,6 +4,9 @@
 
 ```json
 {
+  "id": "g90wu09uwge",
+  "event": "myeduzz.invoice_opened",
+  "sentDate": "2024-01-09T14:45:00.000Z",
   "data": {
     "id": "12345678",
     "status": "opened",
@@ -47,37 +50,29 @@
         }
       }
     ]
-  },
-  "metadata": {
-    "productId": ["P567", "P789"],
-    "userId": "123",
-    "email": "alice.johnson@example.com",
-    "invoiceId": "12345678"
   }
 }
 ```
 | Campo                        | Tipo   | Descrição                             |
 | ---------------------------- | ------ | ------------------------------------- |
-| data.id                      | string | ID da fatura                          |
-| data.status                  | string | Status da fatura                      |
+| id                           | string | ID do evento                          |
+| event                        | string | Nome do evento                        |
+| sentDate                     | string | Data de envio do evento               |
+| data.id                      | string | ID da transação                       |
+| data.status                  | string | Status da transação                   |
 | data.buyer.name              | string | Nome do comprador                     |
 | data.buyer.email             | string | Email do comprador                    |
 | data.buyer.phone             | string | Telefone do comprador                 |
 | data.buyer.phone2            | string | Segundo telefone do comprador         |
 | data.buyer.cellphone         | string | Celular do comprador                  |
-| data.createdAt               | string | Data de criação do evento             |
-| data.price.currency          | string | Moeda da transação                    |
+| data.createdAt               | string | Data de criação da transação          |
+| data.price.currency          | string | Moeda do valor total da transação     |
 | data.price.value             | number | Valor total da transação              |
 | data.paymentMethod           | string | Método de pagamento                   |
 | data.installments            | number | Número de parcelas                    |
 | data.items.productId         | string | ID do produto                         |
 | data.items.name              | string | Nome do produto                       |
-| data.items.refundPeriod      | object | Período de reembolso do produto       |
+| data.items.refundPeriod.durationType | string | Tipo de duração do período de reembolso |
+| data.items.refundPeriod.value | number | Valor do período de reembolso em dias |
 | data.items.price.currency    | string | Moeda do preço do produto             |
 | data.items.price.value       | number | Preço do produto                      |
-| metadata.productId           | array  | IDs dos produtos relacionados         |
-| metadata.userId              | string | ID do usuário relacionado             |
-| metadata.email               | string | Email do usuário relacionado          |
-| metadata.invoiceId           | string | ID da fatura relacionada              |
-
-

@@ -4,6 +4,9 @@
 
 ```json
 {
+  "id": "g90wu09uwge",
+  "event": "myeduzz.cart_abandonment",
+  "sentDate": "2024-01-09T14:45:00.000Z",
   "data": {
     "status": "abandoned_cart",
     "buyer": {
@@ -44,17 +47,14 @@
         }
       }
     ]
-  },
-  "metadata": {
-    "productId": ["P567", "P789"],
-    "userId": "123",
-    "email": "alice.johnson@example.com"
   }
 }
 ```
-
 | Campo                        | Tipo   | Descrição                             |
 | ---------------------------- | ------ | ------------------------------------- |
+| id                           | string | ID do evento                          |
+| event                        | string | Nome do evento                        |
+| sentDate                     | string | Data de envio do evento               |
 | data.status                  | string | Status do carrinho                    |
 | data.buyer.name              | string | Nome do comprador                     |
 | data.buyer.email             | string | Email do comprador                    |
@@ -66,9 +66,7 @@
 | data.price.value             | number | Valor total do carrinho               |
 | data.items.productId         | string | ID do produto no carrinho             |
 | data.items.name              | string | Nome do produto no carrinho           |
-| data.items.refundPeriod      | object | Período de reembolso do produto       |
+| data.items.refundPeriod.durationType | string | Tipo de duração do período de reembolso |
+| data.items.refundPeriod.value | number | Valor do período de reembolso em dias |
 | data.items.price.currency    | string | Moeda do preço do produto             |
 | data.items.price.value       | number | Preço do produto no carrinho          |
-| metadata.productId           | array  | IDs dos produtos no carrinho          |
-| metadata.userId              | string | ID do usuário relacionado             |
-| metadata.email               | string | Email do usuário relacionado          |

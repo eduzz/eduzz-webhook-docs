@@ -4,6 +4,9 @@
 
 ```json
 {
+  "id": "g90wu09uwge",
+  "event": "myeduzz.commission_processed",
+  "sentDate": "2024-01-09T14:45:00.000Z",
   "data": {
     "invoiceId": "12345678",
     "createdAt": "2024-01-09T14:45:00.000Z",
@@ -35,14 +38,14 @@
         }
       ]
     }
-  },
-  "metadata": {
-    "invoiceId": "12345678"
   }
 }
 ```
 | Campo                            | Tipo   | Descrição                             |
 | -------------------------------- | ------ | ------------------------------------- |
+| id                               | string | ID do evento                          |
+| event                            | string | Nome do evento                        |
+| sentDate                         | string | Data de envio do evento               |
 | data.invoiceId                  | string | ID da fatura associada à comissão     |
 | data.createdAt                  | string | Data de criação do evento             |
 | data.price.currency             | string | Moeda do valor total da comissão      |
@@ -61,5 +64,3 @@
 | data.commissions.affiliates.name| string | Nome do afiliado                      |
 | data.commissions.affiliates.currency | string | Moeda da comissão do afiliado    |
 | data.commissions.affiliates.value | number | Valor da comissão do afiliado         |
-| metadata.invoiceId              | string | ID da fatura relacionada              |
-
