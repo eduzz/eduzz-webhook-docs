@@ -50,23 +50,24 @@
   }
 }
 ```
-| Campo                        | Tipo   | Descrição                             |
-| ---------------------------- | ------ | ------------------------------------- |
-| id                           | string | ID do evento                          |
-| event                        | string | Nome do evento                        |
-| sentDate                     | string | Data de envio do evento               |
-| data.status                  | string | Status do carrinho                    |
-| data.buyer.name              | string | Nome do comprador                     |
-| data.buyer.email             | string | Email do comprador                    |
-| data.buyer.phone             | string | Telefone do comprador                 |
-| data.buyer.phone2            | string | Segundo telefone do comprador         |
-| data.buyer.cellphone         | string | Celular do comprador                  |
-| data.createdAt               | string | Data de criação do evento             |
-| data.price.currency          | string | Moeda do valor total do carrinho      |
-| data.price.value             | number | Valor total do carrinho               |
-| data.items.productId         | string | ID do produto no carrinho             |
-| data.items.name              | string | Nome do produto no carrinho           |
-| data.items.refundPeriod.durationType | string | Tipo de duração do período de reembolso |
-| data.items.refundPeriod.value | number | Valor do período de reembolso em dias |
-| data.items.price.currency    | string | Moeda do preço do produto             |
-| data.items.price.value       | number | Preço do produto no carrinho          |
+| Campo                                 | Tipo    | Descrição                                 |
+| ------------------------------------- | ------- | ----------------------------------------- |
+| id                                    | string  | ID do evento                              |
+| event                                 | string  | Nome do evento                            |
+| sentDate                              | string  | Data de envio do evento                   |
+| data.status                           | string  | Status do carrinho                        |
+| data.buyer.name                       | string  | Nome do comprador                         |
+| data.buyer.email                      | string  | Email do comprador                        |
+| data.buyer.phone                      | string  | Telefone do comprador                     |
+| data.buyer.phone2                     | string  | Segundo telefone do comprador             |
+| data.buyer.cellphone                  | string  | Celular do comprador                      |
+| data.createdAt                        | string  | Data de criação do evento                 |
+| data.price.currency                   | string  | Moeda do valor total do carrinho          |
+| data.price.value                      | number  | Valor total do carrinho                   |
+| data.items.productId                  | string  | ID do produto no carrinho                 |
+| data.items.name                       | string  | Nome do produto no carrinho               |
+| data.items.refundPeriod.durationType  | string  | Tipo de duração do período de reembolso   |
+| data.items.refundPeriod.value         | number  | Valor do período de reembolso em dias     |
+| data.items.price.currency             | string  | Moeda do preço do produto                 |
+| data.items.price.value                | number  | Preço do produto no carrinho              |
+
