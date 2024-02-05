@@ -8,7 +8,7 @@
   "event": "myeduzz.cart_abandonment",
   "sentDate": "2024-01-09T14:45:00.000Z",
   "data": {
-    "status": "abandoned_cart",
+    "status": "abandoned",
     "buyer": {
       "name": "Alice Johnson",
       "email": "alice.johnson@example.com",
