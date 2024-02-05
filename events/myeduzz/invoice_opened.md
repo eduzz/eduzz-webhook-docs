@@ -53,27 +53,27 @@
   }
 }
 ```
-| Campo                                 | Tipo    | Descrição                               |
-| ------------------------------------- | ------- | --------------------------------------- |
-| id                                    | string  | ID do evento                            |
-| event                                 | string  | Nome do evento                          |
-| sentDate                              | string  | Data de envio do evento                 |
-| data.id                               | string  | ID da transação                         |
-| data.status                           | string  | Status da transação                     |
-| data.buyer.name                       | string  | Nome do comprador                       |
-| data.buyer.email                      | string  | Email do comprador                      |
-| data.buyer.phone                      | string  | Telefone do comprador                   |
-| data.buyer.phone2                     | string  | Segundo telefone do comprador           |
-| data.buyer.cellphone                  | string  | Celular do comprador                    |
-| data.createdAt                        | string  | Data de criação da transação            |
-| data.price.currency                   | string  | Moeda do valor total da transação       |
-| data.price.value                      | number  | Valor total da transação                |
-| data.paymentMethod                    | string  | Método de pagamento                     |
-| data.installments                     | number  | Número de parcelas                      |
-| data.items.productId                  | string  | ID do produto                           |
-| data.items.name                       | string  | Nome do produto                         |
-| data.items.refundPeriod.durationType  | string  | Tipo de duração do período de reembolso |
-| data.items.refundPeriod.value         | number  | Valor do período de reembolso em dias   |
-| data.items.price.currency             | string  | Moeda do preço do produto               |
-| data.items.price.value                | number  | Preço do produto                        |
 
+| Campo                                   | Tipo   | Descrição                               |
+| --------------------------------------- | ------ | --------------------------------------- |
+| id                                      | string | ID do evento                            |
+| event                                   | string | Nome do evento                          |
+| sentDate                                | string | Data de envio do evento                 |
+| data.id                                 | string | ID da transação                         |
+| data.status                             | string | Status da transação                     |
+| data.buyer.name                         | string | Nome do comprador                       |
+| data.buyer.email                        | string | Email do comprador                      |
+| data.buyer.phone                        | string | Telefone do comprador                   |
+| data.buyer.phone2                       | string | Segundo telefone do comprador           |
+| data.buyer.cellphone                    | string | Celular do comprador                    |
+| data.createdAt                          | string | Data de criação da transação            |
+| data.price.currency                     | string | Moeda do valor total da transação       |
+| data.price.value                        | number | Valor total da transação                |
+| data.paymentMethod                      | string | Método de pagamento                     |
+| data.installments                       | number | Número de parcelas                      |
+| data.items[0].productId                 | string | ID do produto                           |
+| data.items[0].name                      | string | Nome do produto                         |
+| data.items[0].refundPeriod.durationType | string | Tipo de duração do período de reembolso |
+| data.items[0].refundPeriod.value        | number | Valor do período de reembolso em dias   |
+| data.items[0].price.currency            | string | Moeda do preço do produto               |
+| data.items[0].price.value               | number | Preço do produto                        |
