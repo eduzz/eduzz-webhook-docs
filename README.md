@@ -35,7 +35,6 @@ Os eventos disponíveis atualmente são os seguintes:
 **MyEduzz**
     - **[contract_created](./events/myeduzz/contract_created.md)**
     - **[contract_updated](./events/myeduzz/contract_updated.md)**
-    - **[contract_status_updated](./events/myeduzz/contract_status_updated.md)**
 
 ## Como configurar um webhook
 
