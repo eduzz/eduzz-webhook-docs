@@ -5,7 +5,7 @@
 ```json
 {
   "id": "a11f2a56ccbe4f5d9e452ad8a74bd52b",
-  "event": "blinket.checkin",
+  "event": "blinket.attendance_checkin",
   "sentDate": "2024-01-20T15:00:00.000Z",
   "data": {
     "producer": {
@@ -40,7 +40,7 @@
 | Campo                            | Tipo    | Descrição                           |
 | -------------------------------- | ------- | ----------------------------------- |
 | id                               | string  | Id do evento                        |
-| event                            | string  | Nome do evento (checkin)            |
+| event                            | string  | Nome do evento                      |
 | sentDate                         | string  | Data do envio do evento             |
 | data.producer.id                 | string  | Id do produtor do evento            |
 | data.producer.name               | string  | Nome do produtor do evento          |

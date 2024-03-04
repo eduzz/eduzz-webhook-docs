@@ -33,7 +33,8 @@
     "buyer": {
       "name": "Maria Silva",
       "email": "mariasilva@teste.com",
-      "phone": "+5515999999999"
+      "phone": "+5515999999999",
+      "id": "123123"
     },
     "participant": {
       "inviteKey": "99999999",
@@ -48,7 +49,7 @@
       "assigned": false,
       "manuallyCreated": false,
       "checkInAt": null,
-      "checkInLink": "https://url.confirmacao/confirm"
+      "checkInLink": "https://blinket/confirm/hashuuid"
     },
     "createdAt": "2024-01-20T15:00:00.000Z"
   }
@@ -75,6 +76,7 @@
 | data.buyer.name                  | string  | Nome do comprador                   |
 | data.buyer.email                 | string  | Email do comprador                  |
 | data.buyer.phone                 | string  | Telefone do comprador               |
+| data.buyer.id                    | string  | Id do comprador na Eduzz            |
 | data.participant.inviteKey       | string  | Número do ingresso                  |
 | data.participant.name            | string  | Nome do participante                |
 | data.participant.email           | string  | Email do participante               |
