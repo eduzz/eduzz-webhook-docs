@@ -76,7 +76,7 @@
 | data.buyer.name                  | string  | Nome do comprador                   |
 | data.buyer.email                 | string  | Email do comprador                  |
 | data.buyer.phone                 | string  | Telefone do comprador               |
-| data.buyer.id                    | number  | Id do comprador na Eduzz            |
+| data.buyer.id                    | string  | Id do comprador na Eduzz            |
 | data.participant.inviteKey       | string  | Número do ingresso                  |
 | data.participant.name            | string  | Nome do participante                |
 | data.participant.email           | string  | Email do participante               |
