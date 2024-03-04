@@ -32,7 +32,7 @@
         "assigned": true,
         "manuallyCreated": false,
         "checkInAt": "2024-01-09T14:25:31.098Z",
-        "checkInLink": "https://blinket.testzz.ninja/confirm/9b0f22c4-94fe-4a47-859a-f48987293d38"
+        "checkInLink": "https://blinket/confirm/hashuuid",
       }
     ],
     "createdAt": "2024-01-20T15:00:00.000Z"
