@@ -34,7 +34,7 @@
       "name": "Maria Silva",
       "email": "mariasilva@teste.com",
       "phone": "+5515999999999",
-      "id": 123123
+      "id": "123123"
     },
     "participant": {
       "inviteKey": "99999999",
