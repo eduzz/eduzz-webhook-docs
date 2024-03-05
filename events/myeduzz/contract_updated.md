@@ -101,7 +101,7 @@
 
 ## Dados enviados
 
-|-------------------------------------------------|--------|------------------------------------------------------|
+
 | Campo                        					 					|	Tipo   |				 Descrição                           					|
 |-------------------------------------------------|--------|------------------------------------------------------|
 | event												 										|	string |	nome do evento(contract_updated)		                |
@@ -153,4 +153,4 @@
 |	customer.financialResponsible.phone.countryCode	|	string |	código de telefone do pais do resposável financeiro	|
 |	customer.financialResponsible.phone.areaCode		|	string |	codigo de área do responsável financeiro						|
 |	customer.financialResponsible.phone.number			|	string |	número de telefone do responsável financeiro				|
-|-------------------------------------------------|--------|------------------------------------------------------|
+
