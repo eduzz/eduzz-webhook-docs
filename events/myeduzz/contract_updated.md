@@ -102,55 +102,54 @@
 ## Dados enviados
 
 
-| Campo                        					 					|	Tipo   |				 Descrição                           					|
+| Campo                                           | Tipo   |     Descrição                                        |
 |-------------------------------------------------|--------|------------------------------------------------------|
-| event												 										|	string |	nome do evento(contract_updated)		                |
-|	createdAt										 										|	string |	data de criação do evento		                        |
-|	metadata.name								 										|	string |	nome do produto										                  |
-|	metadata.email               										|	string |	email do produtor									                  |
-|	metadata.contractId		       										|	string |	id do contrato		    						                  |
-|	metadata.productId		       										|	string |	id do produto											                  |
-|	data.producer.id			       										|	string |	id do produtor										                  |
-|	data.producer.name		       										|	string |	nome do produtor									                  | 
-|	data.producer.email		      									  |	string |	email do produtor									                  |
-|	data.products.id			       										|	string |	id do produto																	      |
-|	data.products.name		      									  |	string |	nome do produto																	    |
-|	data.products.delivery       										|	string |	forma de entrega do produto													|
-|	data.products.plan		       										|	string |	plano do produto																	  |
-|	data.products.price.currency 										| string |	moeda usada no produto															|
-|	data.products.price.value		 										|	number |	valor do produto																	  |
-|	data.products.membershipFee.currency      			|	string |	moeda da taxa de adesão do produto								  |
-|	data.products.membershipFee.value	       				|	number |	valor da taxa de adesão do produto									|
-|	contract.id											       					|	string |	id do contrato																	    |
-|	contract.payment.method			 		       					|	string |	forma de pagamento																	|
-|	contract.payment.totalOfInstallments    				|	number |	numero de parcelas																	|
-|	contract.status									       					|	string |	status do contrato																	|
-|	contract.trialDays							       					|	number |	dias de teste																        |
-|	contract.createdAt							       					|	string |	data de criação do contrato													|
-|	contract.updateAt							       						|	string |	data de atualização do contrato											|
-|	contract.contentAccess.removeOnContractEnd			|	bool	 |	remover acesso ao conteúdo no final do contrato			|
-|	contract.contentAccess.removeOnLatePayment			|	bool	 |	remover acesso ao conteúdo de pagamento com atraso	|
-|	contract.isPSL									       					|	bool	 |	se o contrato é PSL(parcelamento sem limite)				|
-|	contract.recurrence.startAt			       					|	string |	data de inicio do contrato													|
-|	contract.recurrence.nextDue			       					|	string |	data do próximo vencimento													|
-|	contract.recurrence.currentDue			     				|	string |	data da cobrança atual     							   					|
-|	contract.recurrence.finalDue			       			  |	string |	data da última cobrança(contrato finito)            |
-|	contract.recurrence.finishesAt	       					|	string |	data do termino do contrato													|
-|	contract.recurrence.frequency.type		 					|	string |	tipo de frequência da cobrança 											|
-|	contract.recurrence.frequency.value		 					|	number |	valor referente a frequência da cobrança						|
-|	contract.recurrence.charges.total			 					|	number |	número de cobranças																	|
-|	contract.recurrence.charges.current 	 					|	number |	moeda usada nas cobranças														|
-|	contract.recurrence.isFinite					 					|	bool	 |	se é finito ou infinito															|
-|	contract.price.currency							 					  |	string |	moeda usada no preço															  |
-|	contract.price.value					     		 					|	number |  valor do contrato																	  |
-|	customer.name		      								 					|	string |	nome do cliente																	    |
-|	customer.email												 					|	string |	email do cliente																	  |
-|	customer.phone.countryCode						 					|	string |	código de telefone do pais do cliente								|
-|	customer.phone.areaCode								 					|	string |	codigo de área do cliente														|
-|	customer.phone.number									 					|	string |	número de telefone do cliente												|
-|	customer.financialResponsible.name		 					|	string |	nome do resposável financeiro						 					  |
-|	customer.financialResponsible.email		 					|	string |	email do responsável financeiro											|
-|	customer.financialResponsible.phone.countryCode	|	string |	código de telefone do pais do resposável financeiro	|
-|	customer.financialResponsible.phone.areaCode		|	string |	codigo de área do responsável financeiro						|
-|	customer.financialResponsible.phone.number			|	string |	número de telefone do responsável financeiro				|
-
+| event                                           | string | nome do evento(contract_updated)                     |
+| createdAt                                       | string | data de criação do evento                            |
+| metadata.name                                   | string | nome do produto                                      |
+| metadata.email                                  | string | email do produtor                                    |
+| metadata.contractId                             | string | id do contrato                                       |
+| metadata.productId                              | string | id do produto                                        |
+| data.producer.id                                | string | id do produtor                                       |
+| data.producer.name                              | string | nome do produtor                                     |
+| data.producer.email                             | string | email do produtor                                    |
+| data.products.id                                | string | id do produto                                        |
+| data.products.name                              | string | nome do produto                     				  |
+| data.products.delivery                          | string | forma de entrega do produto            			  |
+| data.products.plan                              | string | plano do produto                   				  |
+| data.products.price.currency                    | string | moeda usada no produto               				  |
+| data.products.price.value                       | number | valor do produto                   				  |
+| data.products.membershipFee.currency            | string | moeda da taxa de adesão do produto          	      |
+| data.products.membershipFee.value               | number | valor da taxa de adesão do produto         		  |
+| contract.id                                     | string | id do contrato                     				  |
+| contract.payment.method                         | string | forma de pagamento                 				  |
+| contract.payment.totalOfInstallments            | number | numero de parcelas                 				  |
+| contract.status                                 | string | status do contrato                 				  |
+| contract.trialDays                              | number | dias de teste                        				  |
+| contract.createdAt                              | string | data de criação do contrato             			  |
+| contract.updateAt                               | string | data de atualização do contrato           			  |
+| contract.contentAccess.removeOnContractEnd      | bool   | remover acesso ao conteúdo no final do contrato   	  |
+| contract.contentAccess.removeOnLatePayment      | bool   | remover acesso ao conteúdo de pagamento com atraso   |
+| contract.isPSL                                  | bool   | se o contrato é PSL(parcelamento sem limite)    	  |
+| contract.recurrence.startAt                     | string | data de inicio do contrato             			  |
+| contract.recurrence.nextDue                     | string | data do próximo vencimento             			  |
+| contract.recurrence.currentDue                  | string | data atual do contrato                  			  |
+| contract.recurrence.finalDue                    | string | data do último vencimento                    	 	  |
+| contract.recurrence.finishesAt                  | string | data do termino do contrato             			  |
+| contract.recurrence.frequency.type              | string | tipo de frequência da cobrança            			  |
+| contract.recurrence.frequency.value             | number | valor referente a frequência da cobrança      		  |
+| contract.recurrence.charges.total               | number | número de cobranças                 				  |
+| contract.recurrence.charges.current             | number | moeda usada nas cobranças              			  |
+| contract.recurrence.isFinite                    | bool   | se é finito ou infinito               				  |
+| contract.price.currency                         | string | moeda usada no preço                 				  |
+| contract.price.value                            | number |  valor do contrato                   				  |
+| customer.name                                   | string | nome do cliente                     				  |
+| customer.email                                  | string | email do cliente                  					  |
+| customer.phone.countryCode                      | string | código de telefone do pais do cliente        	 	  |
+| customer.phone.areaCode                         | string | codigo de área do cliente              			  |
+| customer.phone.number                           | string | número de telefone do cliente            			  |
+| customer.financialResponsible.name              | string | nome do resposável financeiro              		  |
+| customer.financialResponsible.email             | string | email do responsável financeiro           			  |
+| customer.financialResponsible.phone.countryCode | string | código de telefone do pais do resposável financeiro  |
+| customer.financialResponsible.phone.areaCode    | string | codigo de área do responsável financeiro      		  |
+| customer.financialResponsible.phone.number      | string | número de telefone do responsável financeiro    	  |
