@@ -64,10 +64,10 @@
 | data.tickets[0].buyLimit                  | number  | Limite de ingressos por compra        |
 | data.tickets[0].buyMinimum                | number  | Compra mínima de ingressos por compra |
 | data.tickets[0].batches[0].contentId      | string  | Id do conteúdo referente ao lote      |
-| data.tickets[0].batches[0].name           | boolean | Nome do lote                          |
-| data.tickets[0].batches[0].quantity       | boolean | Quantidade de ingressos do lote       |
+| data.tickets[0].batches[0].name           | string | Nome do lote                          |
+| data.tickets[0].batches[0].quantity       | number | Quantidade de ingressos do lote       |
 | data.tickets[0].batches[0].startSalesAt   | string  | Data de início de vendas do lote      |
 | data.tickets[0].batches[0].endSalesAt     | string  | Data de final de vendas do lote       |
 | data.tickets[0].batches[0].price.currency | string  | Moeda do lote                         |
-| data.tickets[0].batches[0].price.value    | string  | Preço do lote                         |
+| data.tickets[0].batches[0].price.value    | number  | Preço do lote                         |
 | data.createdAt                            | string  | Data de criação do webhook            |
