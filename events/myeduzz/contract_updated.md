@@ -92,19 +92,17 @@
 
 | Campo                                           | Tipo   |     Descrição                                        |
 |-------------------------------------------------|--------|------------------------------------------------------|
-| event                                           | string | nome do evento(contract_updated)                     |
-| createdAt                                       | string | data de criação do evento                            |
-| data.producer.id                                | string | id do produtor                                       |
-| data.producer.name                              | string | nome do produtor                                     |
-| data.producer.email                             | string | email do produtor                                    |
-| data.products.id                                | string | id do produto                                        |
-| data.products.name                              | string | nome do produto                                      |
-| data.products.delivery                          | string | forma de entrega do produto                          |
-| data.products.plan                              | string | plano do produto                                     |
-| data.products.price.currency                    | string | moeda usada no produto                               |
-| data.products.price.value                       | number | valor do produto                                     |
-| data.products.membershipFee.currency            | string | moeda da taxa de adesão do produto                   |
-| data.products.membershipFee.value               | number | valor da taxa de adesão do produto                   |
+| producer.id                                     | string | id do produtor                                       |
+| producer.name                                   | string | nome do produtor                                     |
+| producer.email                                  | string | email do produtor                                    |
+| products.id                                     | string | id do produto                                        |
+| products.name                                   | string | nome do produto                                      |
+| products.delivery                               | string | forma de entrega do produto                          |
+| products.plan                                   | string | plano do produto                                     |
+| products.price.currency                         | string | moeda usada no produto                               |
+| products.price.value                            | number | valor do produto                                     |
+| products.membershipFee.currency                 | string | moeda da taxa de adesão do produto                   |
+| products.membershipFee.value                    | number | valor da taxa de adesão do produto                   |
 | contract.id                                     | string | id do contrato                                       |
 | contract.payment.method                         | string | forma de pagamento                                   |
 | contract.payment.totalOfInstallments            | number | numero de parcelas                                   |
