@@ -44,7 +44,7 @@
       "removeOnContractEnd": true,
       "removeOnLatePayment": true
     },
-    "isUnlimitedInstallments": false,
+    "installments": false,
     "recurrence": {
       "startsAt": "2024-01-15T15:00:00.000Z",
       "nextDue": "2024-02-15T15:00:00.000Z",
