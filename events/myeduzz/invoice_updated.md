@@ -12,6 +12,11 @@
   "data": {
     "id": "12345678",
     "status": "paid",
+    "producer": {
+      "email": "fulano@eduzz.com",
+      "name": "Fulano da Silva",
+      "id": "123456"
+    },
     "buyer": {
       "name": "Alice Johnson",
       "email": "alice.johnson@example.com",
