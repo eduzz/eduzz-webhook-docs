@@ -35,8 +35,17 @@ Os eventos disponíveis atualmente são os seguintes:
 - **MyEduzz**
     - **[invoice_opened](./events/myeduzz/invoice_opened.md)**
     - **[invoice_updated](./events/myeduzz/invoice_updated.md)**
-    - **[cart_abandonment](./events/myeduzz/cart_abandonment.md)**
     - **[commission_processed](./events/myeduzz/commission_processed.md)**
+
+ - **Blinket**
+    - **[attendance_added](./events/blinket/attendance_added.md)**
+    - **[attendance_assigned](./events/blinket/attendance_assigned.md)**
+    - **[attendance_canceled](./events/blinket/attendance_canceled.md)**
+    - **[attendance_edited](./events/blinket/attendance_edited.md)**
+    - **[attendances_printed](./events/blinket/attendances_printed.md)**
+    - **[checkin](./events/blinket/checkin.md)**
+    - **[attendance_tag_changed](./events/blinket/attendance_tag_changed.md)**
+    - **[ticket_edited](./events/blinket/ticket_edited.md)**
 
 ## Como configurar um webhook
 
