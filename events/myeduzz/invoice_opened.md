@@ -17,6 +17,11 @@
       "phone2": "555-987-6543",
       "cellphone": "555-321-9876"
     },
+    "producer": {
+      "email": "fulano@eduzz.com",
+      "name": "Fulano da Silva",
+      "id": "123456"
+    },
     "createdAt": "2024-01-09T14:45:00.000Z",
     "price": {
       "currency": "BRL",
@@ -66,6 +71,9 @@
 | data.buyer.phone                        | string | Telefone do comprador                   |
 | data.buyer.phone2                       | string | Segundo telefone do comprador           |
 | data.buyer.cellphone                    | string | Celular do comprador                    |
+| data.producer.name                      | string | Nome do produtor                        |
+| data.procer.email                       | string | Email do produtor                       |
+| data.procer.id                          | string | ID do produtor                          |
 | data.createdAt                          | string | Data de criação da transação            |
 | data.price.currency                     | string | Moeda do valor total da transação       |
 | data.price.value                        | number | Valor total da transação                |
