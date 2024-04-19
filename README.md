@@ -27,7 +27,7 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[attendance_tag_changed](./events/blinket/attendance_tag_changed.md)**
     - **[ticket_edited](./events/blinket/ticket_edited.md)**
 
-**MyEduzz**
+ - **MyEduzz**
     - **[contract_created](./events/myeduzz/contract_created.md)**
     - **[contract_updated](./events/myeduzz/contract_updated.md)**
 
