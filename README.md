@@ -46,6 +46,21 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[module_completed](./events/nutror/module_completed.md)**
     - **[notation_created](./events/nutror/notation_created.md)**
 
+- **MyEduzz**
+    - **[invoice_opened](./events/myeduzz/invoice_opened.md)**
+    - **[invoice_paid](./events/myeduzz/invoice_paid.md)**
+    - **[commission_processed](./events/myeduzz/commission_processed.md)**
+
+ - **Blinket**
+    - **[attendance_added](./events/blinket/attendance_added.md)**
+    - **[attendance_assigned](./events/blinket/attendance_assigned.md)**
+    - **[attendance_canceled](./events/blinket/attendance_canceled.md)**
+    - **[attendance_edited](./events/blinket/attendance_edited.md)**
+    - **[attendances_printed](./events/blinket/attendances_printed.md)**
+    - **[checkin](./events/blinket/checkin.md)**
+    - **[attendance_tag_changed](./events/blinket/attendance_tag_changed.md)**
+    - **[ticket_edited](./events/blinket/ticket_edited.md)**
+
 ## Como configurar um webhook
 
 Ao acessar o webhook, a seguinte tela de listagem de configurações será exibida:
