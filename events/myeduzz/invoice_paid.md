@@ -93,7 +93,7 @@
 | data.utm.source                         | string | Origem do tráfego fonte da venda        |
 | data.utm.campaign                       | string | Nome da campanha fonte da venda         |
 | data.utm.medium                         | string | Mídia fonte da venda                    |
-| data.utm.content                        | number | Conteúdo relacionado à venda            |
+| data.utm.content                        | string | Conteúdo relacionado à venda            |
 | data.items[0].productId                 | string | ID do produto                           |
 | data.items[0].name                      | string | Nome do produto                         |
 | data.items[0].refundPeriod.durationType | string | Tipo de duração do período de reembolso |
