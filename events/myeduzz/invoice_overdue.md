@@ -1,30 +1,19 @@
-# Fatura é atualizada para paga.
+# Fatura é atualizada para inadimplente.
 
 ## Exemplo
 
 ```json
 {
   "id": "g90wu09uwge",
-  "event": "myeduzz.invoice_paid",
+  "event": "myeduzz.invoice_overdue",
   "sentDate": "2024-01-09T14:45:00.000Z",
   "data": {
     "id": "12345678",
-    "status": "paid",
+    "status": "overdue",
     "producer": {
       "id": "123456"
       "email": "fulano@eduzz.com",
       "name": "Fulano da Silva",
-    },
-    "affiliate": {
-      "id": "987654"
-      "name": "Afiliado",
-      "email": "afiliado@eduzz.com",
-    },
-    "utm": {
-      "source": "abc",
-      "campaign": "def",
-      "content": "ghi",
-      "medium": "jkl"
     },
     "buyer": {
       "name": "Alice Johnson",
@@ -82,21 +71,14 @@
 | data.buyer.phone                        | string | Telefone do comprador                   |
 | data.buyer.phone2                       | string | Segundo telefone do comprador           |
 | data.buyer.cellphone                    | string | Celular do comprador                    |
-| data.createdAt                          | string | Data de criação do evento               |
+| data.createdAt                          | string | Data de criação fatura                  |
 | data.price.currency                     | string | Moeda do valor total da fatura          |
 | data.price.value                        | number | Valor total da fatura                   |
-| data.paymentMethod                      | string | Método de pagamento                     |
 | data.installments                       | number | Número de parcelas                      |
+| data.paymentMethod                      | number | Método de pagamento                     |
 | data.producer.id                        | string | ID do produtor                          |
 | data.producer.name                      | string | Nome do produtor                        |
 | data.producer.email                     | string | Email do produtor                       |
-| data.affiliate.id                       | string | ID do afiliado                          |
-| data.affiliate.name                     | string | Nome do afiliado                        |
-| data.affiliate.email                    | string | Email do afiliado                       |
-| data.utm.source                         | string | Origem do tráfego fonte da venda        |
-| data.utm.campaign                       | string | Nome da campanha fonte da venda         |
-| data.utm.medium                         | string | Mídia fonte da venda                    |
-| data.utm.content                        | string | Conteúdo relacionado à venda            |
 | data.items[0].productId                 | string | ID do produto                           |
 | data.items[0].name                      | string | Nome do produto                         |
 | data.items[0].refundPeriod.durationType | string | Tipo de duração do período de reembolso |

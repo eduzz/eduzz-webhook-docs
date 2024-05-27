@@ -23,13 +23,26 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[attendance_canceled](./events/blinket/attendance_canceled.md)**
     - **[attendance_edited](./events/blinket/attendance_edited.md)**
     - **[attendances_printed](./events/blinket/attendances_printed.md)**
-    - **[checkin](./events/blinket/checkin.md)**
+    - **[attendance_checkin](./events/blinket/attendance_checkin.md)**
     - **[attendance_tag_changed](./events/blinket/attendance_tag_changed.md)**
     - **[ticket_edited](./events/blinket/ticket_edited.md)**
 
  - **MyEduzz**
     - **[contract_created](./events/myeduzz/contract_created.md)**
     - **[contract_updated](./events/myeduzz/contract_updated.md)**
+    - **[invoice_opened](./events/myeduzz/invoice_opened.md)**
+    - **[invoice_paid](./events/myeduzz/invoice_paid.md)**
+    - **[invoice_canceled](./events/myeduzz/invoice_canceled.md)**
+    - **[invoice_waiting_refund](./events/myeduzz/invoice_waiting_refund.md)**
+    - **[invoice_refunded](./events/myeduzz/invoice_refunded.md)**
+    - **[invoice_expired](./events/myeduzz/invoice_expired.md)**
+    - **[invoice_recovering](./events/myeduzz/invoice_recovering.md)**
+    - **[invoice_waiting_payment](./events/myeduzz/invoice_waiting_payment.md)**
+    - **[invoice_refused](./events/myeduzz/invoice_refused.md)**
+    - **[invoice_overdue](./events/myeduzz/invoice_overdue.md)**
+    - **[invoice_scheduled](./events/myeduzz/invoice_scheduled.md)**
+    - **[invoice_negotiated](./events/myeduzz/invoice_negotiated.md)**
+    - **[commission_processed](./events/myeduzz/commission_processed.md)**
 
  - **Nutror**
     - **[certificate_viewed](./events/nutror/certificate_viewed.md)**
@@ -45,21 +58,6 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[lesson_watched](./events/nutror/lesson_watched.md)**
     - **[module_completed](./events/nutror/module_completed.md)**
     - **[notation_created](./events/nutror/notation_created.md)**
-
-- **MyEduzz**
-    - **[invoice_opened](./events/myeduzz/invoice_opened.md)**
-    - **[invoice_paid](./events/myeduzz/invoice_paid.md)**
-    - **[commission_processed](./events/myeduzz/commission_processed.md)**
-
- - **Blinket**
-    - **[attendance_added](./events/blinket/attendance_added.md)**
-    - **[attendance_assigned](./events/blinket/attendance_assigned.md)**
-    - **[attendance_canceled](./events/blinket/attendance_canceled.md)**
-    - **[attendance_edited](./events/blinket/attendance_edited.md)**
-    - **[attendances_printed](./events/blinket/attendances_printed.md)**
-    - **[checkin](./events/blinket/checkin.md)**
-    - **[attendance_tag_changed](./events/blinket/attendance_tag_changed.md)**
-    - **[ticket_edited](./events/blinket/ticket_edited.md)**
 
 ## Como configurar um webhook
 

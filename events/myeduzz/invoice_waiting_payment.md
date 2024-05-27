@@ -1,21 +1,19 @@
-# Fatura é atualizada, como por exemplo, de aberta para paga.
+# Fatura é atualizada para aguardando pagamento.
 
 ## Exemplo
-
-### Os status para esse evento são: paid, canceled, refunded, analysing, expired, recovering, trial, refused, overdue, scheduled, negociated, readjusted
 
 ```json
 {
   "id": "g90wu09uwge",
-  "event": "myeduzz.invoice_updated",
+  "event": "myeduzz.invoice_waiting_payment",
   "sentDate": "2024-01-09T14:45:00.000Z",
   "data": {
     "id": "12345678",
-    "status": "paid",
+    "status": "waiting_payment",
     "producer": {
+      "id": "123456"
       "email": "fulano@eduzz.com",
       "name": "Fulano da Silva",
-      "id": "123456"
     },
     "buyer": {
       "name": "Alice Johnson",
@@ -66,18 +64,21 @@
 | id                                      | string | ID do evento                            |
 | event                                   | string | Nome do evento                          |
 | sentDate                                | string | Data de envio do evento                 |
-| data.id                                 | string | ID da transação                         |
-| data.status                             | string | Status da transação                     |
+| data.id                                 | string | ID da fatura                            |
+| data.status                             | string | Status da fatura                        |
 | data.buyer.name                         | string | Nome do comprador                       |
 | data.buyer.email                        | string | Email do comprador                      |
 | data.buyer.phone                        | string | Telefone do comprador                   |
 | data.buyer.phone2                       | string | Segundo telefone do comprador           |
 | data.buyer.cellphone                    | string | Celular do comprador                    |
-| data.createdAt                          | string | Data de criação da transação            |
-| data.price.currency                     | string | Moeda do valor total da transação       |
-| data.price.value                        | number | Valor total da transação                |
-| data.paymentMethod                      | string | Método de pagamento                     |
+| data.createdAt                          | string | Data de criação fatura                  |
+| data.price.currency                     | string | Moeda do valor total da fatura          |
+| data.price.value                        | number | Valor total da fatura                   |
 | data.installments                       | number | Número de parcelas                      |
+| data.paymentMethod                      | number | Método de pagamento                     |
+| data.producer.id                        | string | ID do produtor                          |
+| data.producer.name                      | string | Nome do produtor                        |
+| data.producer.email                     | string | Email do produtor                       |
 | data.items[0].productId                 | string | ID do produto                           |
 | data.items[0].name                      | string | Nome do produto                         |
 | data.items[0].refundPeriod.durationType | string | Tipo de duração do período de reembolso |
