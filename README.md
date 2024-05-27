@@ -17,6 +17,20 @@ O formato do json será sempre o seguinte:
 
 Os eventos disponíveis atualmente são os seguintes:
 
+ - **Blinket**
+    - **[attendance_added](./events/blinket/attendance_added.md)**
+    - **[attendance_assigned](./events/blinket/attendance_assigned.md)**
+    - **[attendance_canceled](./events/blinket/attendance_canceled.md)**
+    - **[attendance_edited](./events/blinket/attendance_edited.md)**
+    - **[attendances_printed](./events/blinket/attendances_printed.md)**
+    - **[checkin](./events/blinket/checkin.md)**
+    - **[attendance_tag_changed](./events/blinket/attendance_tag_changed.md)**
+    - **[ticket_edited](./events/blinket/ticket_edited.md)**
+
+ - **MyEduzz**
+    - **[contract_created](./events/myeduzz/contract_created.md)**
+    - **[contract_updated](./events/myeduzz/contract_updated.md)**
+
  - **Nutror**
     - **[certificate_viewed](./events/nutror/certificate_viewed.md)**
     - **[comment_created](./events/nutror/comment_created.md)**
@@ -31,21 +45,6 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[lesson_watched](./events/nutror/lesson_watched.md)**
     - **[module_completed](./events/nutror/module_completed.md)**
     - **[notation_created](./events/nutror/notation_created.md)**
-
-- **MyEduzz**
-    - **[invoice_opened](./events/myeduzz/invoice_opened.md)**
-    - **[invoice_updated](./events/myeduzz/invoice_updated.md)**
-    - **[commission_processed](./events/myeduzz/commission_processed.md)**
-
- - **Blinket**
-    - **[attendance_added](./events/blinket/attendance_added.md)**
-    - **[attendance_assigned](./events/blinket/attendance_assigned.md)**
-    - **[attendance_canceled](./events/blinket/attendance_canceled.md)**
-    - **[attendance_edited](./events/blinket/attendance_edited.md)**
-    - **[attendances_printed](./events/blinket/attendances_printed.md)**
-    - **[checkin](./events/blinket/checkin.md)**
-    - **[attendance_tag_changed](./events/blinket/attendance_tag_changed.md)**
-    - **[ticket_edited](./events/blinket/ticket_edited.md)**
 
 ## Como configurar um webhook
 
