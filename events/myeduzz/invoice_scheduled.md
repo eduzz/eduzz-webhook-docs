@@ -9,7 +9,7 @@
   "sentDate": "2024-01-09T14:45:00.000Z",
   "data": {
     "id": "12345678",
-    "status": "refused",
+    "status": "scheduled",
     "producer": {
       "id": "123456"
       "email": "fulano@eduzz.com",
