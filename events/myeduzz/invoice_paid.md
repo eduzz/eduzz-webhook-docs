@@ -85,7 +85,7 @@
 | data.createdAt                          | string | Data de criação do evento               |
 | data.price.currency                     | string | Moeda do valor total da fatura          |
 | data.price.value                        | number | Valor total da fatura                   |
-| data.paymentMethod                      | string | Método de pagamento                     |
+| data.paymentMethod                      | string | Forma de pagamento                      |
 | data.installments                       | number | Número de parcelas                      |
 | data.producer.id                        | string | ID do produtor                          |
 | data.producer.name                      | string | Nome do produtor                        |
