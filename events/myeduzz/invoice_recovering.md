@@ -24,12 +24,10 @@
     },
     "createdAt": "2024-01-09T14:45:00.000Z",
     "startRecoveringAt": "2024-01-15T17:45:00.000Z",
-    "recoveringStatus": "active",
     "price": {
       "currency": "BRL",
       "value": 301.5
     },
-    "paymentMethod": "creditCard",
     "installments": 1,
     "items": [
       {
@@ -75,10 +73,8 @@
 | data.buyer.cellphone                    | string | Celular do comprador                    |
 | data.createdAt                          | string | Data de criação fatura                  |
 | data.startRecoveringAt                  | string | Data de início da recuperação da fatura |
-| data.recoveringStatus                   | string | Status da recuperação da fatura         |
 | data.price.currency                     | string | Moeda do valor total da fatura          |
 | data.price.value                        | number | Valor total da fatura                   |
-| data.paymentMethod                      | number | Método de pagamento                     |
 | data.installments                       | number | Número de parcelas                      |
 | data.producer.id                        | string | ID do produtor                          |
 | data.producer.name                      | string | Nome do produtor                        |

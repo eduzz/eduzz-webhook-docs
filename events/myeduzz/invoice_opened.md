@@ -9,7 +9,7 @@
   "sentDate": "2024-01-09T14:45:00.000Z",
   "data": {
     "id": "12345678",
-    "status": "opened",
+    "status": "open",
     "buyer": {
       "name": "Alice Johnson",
       "email": "alice.johnson@example.com",
@@ -27,7 +27,6 @@
       "currency": "BRL",
       "value": 301.5
     },
-    "paymentMethod": "creditCard",
     "installments": 1,
     "items": [
       {
@@ -77,7 +76,6 @@
 | data.createdAt                          | string | Data de criação da transação            |
 | data.price.currency                     | string | Moeda do valor total da transação       |
 | data.price.value                        | number | Valor total da transação                |
-| data.paymentMethod                      | string | Método de pagamento                     |
 | data.installments                       | number | Número de parcelas                      |
 | data.items[0].productId                 | string | ID do produto                           |
 | data.items[0].name                      | string | Nome do produto                         |

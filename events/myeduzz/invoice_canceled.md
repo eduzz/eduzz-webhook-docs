@@ -27,7 +27,6 @@
       "currency": "BRL",
       "value": 301.5
     },
-    "paymentMethod": "creditCard",
     "installments": 1,
     "items": [
       {
@@ -75,7 +74,6 @@
 | data.price.currency                     | string | Moeda do valor total da fatura          |
 | data.price.value                        | number | Valor total da fatura                   |
 | data.installments                       | number | Número de parcelas                      |
-| data.paymentMethod                      | number | Método de pagamento                     |
 | data.producer.id                        | string | ID do produtor                          |
 | data.producer.name                      | string | Nome do produtor                        |
 | data.producer.email                     | string | Email do produtor                       |
