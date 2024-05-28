@@ -63,8 +63,8 @@
 | id                                      | string | ID do evento                            |
 | event                                   | string | Nome do evento                          |
 | sentDate                                | string | Data de envio do evento                 |
-| data.id                                 | string | ID da transação                         |
-| data.status                             | string | Status da transação                     |
+| data.id                                 | string | ID da fatura                            |
+| data.status                             | string | Status da fatura                        |
 | data.buyer.name                         | string | Nome do comprador                       |
 | data.buyer.email                        | string | Email do comprador                      |
 | data.buyer.phone                        | string | Telefone do comprador                   |
@@ -73,9 +73,9 @@
 | data.producer.name                      | string | Nome do produtor                        |
 | data.procer.email                       | string | Email do produtor                       |
 | data.procer.id                          | string | ID do produtor                          |
-| data.createdAt                          | string | Data de criação da transação            |
-| data.price.currency                     | string | Moeda do valor total da transação       |
-| data.price.value                        | number | Valor total da transação                |
+| data.createdAt                          | string | Data de criação da fatura               |
+| data.price.currency                     | string | Moeda do valor total da fatura          |
+| data.price.value                        | number | Valor total da fatura                   |
 | data.installments                       | number | Número de parcelas                      |
 | data.items[0].productId                 | string | ID do produto                           |
 | data.items[0].name                      | string | Nome do produto                         |

@@ -82,7 +82,7 @@
 | data.buyer.phone                        | string | Telefone do comprador                   |
 | data.buyer.phone2                       | string | Segundo telefone do comprador           |
 | data.buyer.cellphone                    | string | Celular do comprador                    |
-| data.createdAt                          | string | Data de criação do evento               |
+| data.createdAt                          | string | Data de criação da fatura               |
 | data.price.currency                     | string | Moeda do valor total da fatura          |
 | data.price.value                        | number | Valor total da fatura                   |
 | data.paymentMethod                      | string | Método de pagamento                     |
