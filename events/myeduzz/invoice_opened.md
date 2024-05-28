@@ -32,10 +32,6 @@
       {
         "productId": "P567",
         "name": "Widget X",
-        "refundPeriod": {
-          "durationType": "days",
-          "value": 7
-        },
         "price": {
           "currency": "BRL",
           "value": 150.75
@@ -44,10 +40,6 @@
       {
         "productId": "P789",
         "name": "Gadget Y",
-        "refundPeriod": {
-          "durationType": "days",
-          "value": 7
-        },
         "price": {
           "currency": "BRL",
           "value": 150.75
@@ -79,7 +71,5 @@
 | data.installments                       | number | Número de parcelas                      |
 | data.items[0].productId                 | string | ID do produto                           |
 | data.items[0].name                      | string | Nome do produto                         |
-| data.items[0].refundPeriod.durationType | string | Tipo de duração do período de reembolso |
-| data.items[0].refundPeriod.value        | number | Valor do período de reembolso           |
 | data.items[0].price.currency            | string | Moeda do preço do produto               |
 | data.items[0].price.value               | number | Preço do produto                        |
