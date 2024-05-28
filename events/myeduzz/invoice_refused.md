@@ -11,7 +11,7 @@
     "id": "12345678",
     "status": "refused",
     "producer": {
-      "id": "123456"
+      "id": "123456",
       "email": "fulano@eduzz.com",
       "name": "Fulano da Silva",
     },
