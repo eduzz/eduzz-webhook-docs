@@ -54,7 +54,7 @@
 | event                                               | string | Nome do evento                  |
 | sentDate                                            | string | Data de envio do evento         |
 | data.invoiceId                                      | string | ID da fatura associada          |
-| data.createdAt                                      | string | Data de criação do evento       |
+| data.createdAt                                      | string | Data de criação da fatura       |
 | data.price.currency                                 | string | Moeda do valor total            |
 | data.price.value                                    | number | Valor total da da fatura        |
 | data.commissions.producer.id                        | string | ID do produtor                  |
