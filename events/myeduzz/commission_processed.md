@@ -48,24 +48,24 @@
 }
 ```
 
-| Campo                                               | Tipo   | Descrição                       |
-| --------------------------------------------------- | ------ | ------------------------------- |
-| id                                                  | string | ID do evento                    |
-| event                                               | string | Nome do evento                  |
-| sentDate                                            | string | Data de envio do evento         |
-| data.invoiceId                                      | string | ID da fatura associada          |
-| data.createdAt                                      | string | Data de criação da fatura       |
-| data.price.currency                                 | string | Moeda do valor total            |
-| data.price.value                                    | number | Valor total da da fatura        |
-| data.commissions.producer.id                        | string | ID do produtor                  |
-| data.commissions.producer.name                      | string | Nome do produtor                |
-| data.commissions.producer.commission.currency       | string | Moeda da comissão do produtor   |
-| data.commissions.producer.commission.value          | number | Valor da comissão do produtor   |
-| data.commissions.coproducers[0].id                  | string | ID do coprodutor                |
-| data.commissions.coproducers[0].name                | string | Nome do coprodutor              |
-| data.commissions.coproducers[0].commission.currency | string | Moeda da comissão do coprodutor |
-| data.commissions.coproducers[0].commission.value    | number | Valor da comissão do coprodutor |
-| data.commissions.affiliates[0].id                   | string | ID do afiliado                  |
-| data.commissions.affiliates[0].name                 | string | Nome do afiliado                |
-| data.commissions.affiliates[0].commission.currency  | string | Moeda da comissão do afiliado   |
-| data.commissions.affiliates[0].commission.value     | number | Valor da comissão do afiliado   |
+| Campo                                               | Tipo   | Descrição                          |
+| --------------------------------------------------- | ------ | ---------------------------------- |
+| id                                                  | string | ID do evento                       |
+| event                                               | string | Nome do evento                     |
+| sentDate                                            | string | Data de envio do evento            |
+| data.invoiceId                                      | string | ID da fatura associada             |
+| data.createdAt                                      | string | Data de criação de comissionamento |
+| data.price.currency                                 | string | Moeda do valor total               |
+| data.price.value                                    | number | Valor total da da fatura           |
+| data.commissions.producer.id                        | string | ID do produtor                     |
+| data.commissions.producer.name                      | string | Nome do produtor                   |
+| data.commissions.producer.commission.currency       | string | Moeda da comissão do produtor      |
+| data.commissions.producer.commission.value          | number | Valor da comissão do produtor      |
+| data.commissions.coproducers[0].id                  | string | ID do coprodutor                   |
+| data.commissions.coproducers[0].name                | string | Nome do coprodutor                 |
+| data.commissions.coproducers[0].commission.currency | string | Moeda da comissão do coprodutor    |
+| data.commissions.coproducers[0].commission.value    | number | Valor da comissão do coprodutor    |
+| data.commissions.affiliates[0].id                   | string | ID do afiliado                     |
+| data.commissions.affiliates[0].name                 | string | Nome do afiliado                   |
+| data.commissions.affiliates[0].commission.currency  | string | Moeda da comissão do afiliado      |
+| data.commissions.affiliates[0].commission.value     | number | Valor da comissão do afiliado      |
