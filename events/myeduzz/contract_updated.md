@@ -83,7 +83,8 @@
       "areaCode": "15",
       "number":  "5999999999"
     }
-  }
+  },
+  "reason": "reactivation"
 }
 ```
 
@@ -135,3 +136,4 @@
 | customer.financialResponsible.phone.countryCode | string | código de telefone do pais do resposável financeiro  |
 | customer.financialResponsible.phone.areaCode    | string | codigo de área do responsável financeiro             |
 | customer.financialResponsible.phone.number      | string | número de telefone do responsável financeiro         |
+| reason                                          | string | razão pelo qual foi disparado o evento               |
