@@ -58,6 +58,10 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[lesson_watched](./events/nutror/lesson_watched.md)**
     - **[module_completed](./events/nutror/module_completed.md)**
     - **[notation_created](./events/nutror/notation_created.md)**
+ 
+ - **AlpaClass**
+    - **[student_created](./events/alpaclass/student_created.md)**    
+   
 
 ## Como configurar um webhook
 
