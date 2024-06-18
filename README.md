@@ -60,7 +60,16 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[notation_created](./events/nutror/notation_created.md)**
  
  - **AlpaClass**
-    - **[student_created](./events/alpaclass/student_created.md)**    
+    - **[student_created](./events/alpaclass/student_created.md)** 
+    - **[student_access_course](./events/alpaclass/student_access_course.md)**
+    - **[student_marked_lesson_as_read](./events/alpaclass/student_marked_lesson_as_read.md)**
+    - **[student_finished_module](./events/alpaclass/student_finished_module.md)**
+    - **[student_access_certificate](./events/alpaclass/student_access_certificate.md)**
+    - **[student_marked_lesson_as_favorite](./events/alpaclass/student_marked_lesson_as_favorite.md)**
+    - **[student_marked_lesson_as_watched](./events/alpaclass/student_marked_lesson_as_watched.md)**
+    - **[student_complete_module](./events/alpaclass/student_complete_module.md)**
+    - **[student_complete_course](./events/alpaclass/student_complete_course.md)**
+    - **[student_comment_on_lesson](./events/alpaclass/student_comment_on_lesson.md)**
    
 
 ## Como configurar um webhook
