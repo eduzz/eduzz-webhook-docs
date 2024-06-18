@@ -12,7 +12,7 @@
       },
       "lesson": { 
         "id": "68", 
-        "name": "Agiotagem para iniciantes passo 1", 
+        "name": "Aula 1 - Melhores ações do setor de energia", 
       },
       "comment": {
         "body": "Adorei a aula, espero conseguir aplicar os aprendizados!",
@@ -29,9 +29,9 @@
 | id                        | string | Id do evento                                | 
 | event                     | string | Nome do evento (student_commented_on_lesson)| 
 | sentDate                  | string | Data do envio do evento                     |
-| data.student.id           | number | Id do aluno na escola                       | 
+| data.student.id           | string | Id do aluno na escola                       | 
 | data.student.name         | string | Nome do aluno                               |
-| data.lesson.id            | number | Id da aula                                  | 
+| data.lesson.id            | string | Id da aula                                  | 
 | data.lesson.name          | string | Nome da aula                                | 
 | data.comment.body         | string | Conteúdo do comentário                      | 
 | data.comment.createdAt    | string | Data da criação do comentário               | 

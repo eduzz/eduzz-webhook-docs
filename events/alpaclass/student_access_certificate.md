@@ -14,7 +14,7 @@
       },
       "course": { 
         "id": "54", 
-        "name": "Holococriação", 
+        "name": "Day trade para iniciantes", 
       },
       "certificate": { 
         "slug": "3fXaDz", 
@@ -31,9 +31,9 @@
 | id                        | string | Id do evento                                     | 
 | event                     | string | Nome do evento (student_access_certificate)      | 
 | sentDate                  | string | Data do envio do evento                          |
-| data.student.id           | number | Id do aluno na escola                            | 
+| data.student.id           | string | Id do aluno na escola                            | 
 | data.student.name         | string | Nome do aluno                                    |
-| data.course.id            | number | Id do curso                                      | 
+| data.course.id            | string | Id do curso                                      | 
 | data.course.name          | string | Nome do curso                                    | 
 | data.certificate.slug     | string | Slug do certificado                              | 
 | data.certificate.accessDate  | string | Data do acesso ao certificado                 | 

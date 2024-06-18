@@ -12,7 +12,7 @@
       },
       "course": { 
         "id": "68", 
-        "name": "Agiotagem para iniciantes", 
+        "name": "Day trade para iniciantes", 
         "finishedAt": "2024-06-12T12:00:10.000Z", 
       },
     } 
@@ -26,9 +26,9 @@
 | id                        | string | Id do evento                                | 
 | event                     | string | Nome do evento (student_completed_course)   | 
 | sentDate                  | string | Data do envio do evento                     |
-| data.student.id           | number | Id do aluno na escola                       | 
+| data.student.id           | string | Id do aluno na escola                       | 
 | data.student.name         | string | Nome do aluno                               |
-| data.course.id            | number | Id do curso                                 | 
+| data.course.id            | string | Id do curso                                 | 
 | data.course.name          | string | Nome do curso                               | 
 | data.course.finishedAt    | string | Data que o aluno concluiu o curso           | 
 

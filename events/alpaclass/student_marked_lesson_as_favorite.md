@@ -13,7 +13,7 @@
       },
       "lesson": { 
         "id": "54", 
-        "name": "Aula charlatanismo iniciante", 
+        "name": "Aula 1 - Melhores ações do setor de energia", 
         "actionDate": "2024-06-12T12:00:10.000Z", 
       },
     } 
@@ -27,9 +27,9 @@
 | id                        | string | Id do evento                                     | 
 | event                     | string | Nome do evento (student_marked_lesson_as_favorite) | 
 | sentDate                  | string | Data do envio do evento                          |
-| data.student.id           | number | Id do aluno na escola                            | 
+| data.student.id           | string | Id do aluno na escola                            | 
 | data.student.name         | string | Nome do aluno                                    |
-| data.lesson.id            | number | Id da aula                                       | 
+| data.lesson.id            | string | Id da aula                                       | 
 | data.lesson.name          | string | Nome da aula                                     | 
 | data.lesson.actionDate    | string | Data da ação                                     | 
 
