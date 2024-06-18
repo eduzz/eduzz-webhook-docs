@@ -16,6 +16,10 @@
         "name": "Aula 1 - Melhores ações do setor de energia", 
         "actionDate": "2024-06-12T12:00:10.000Z", 
       },
+      "course": { 
+        "id": "25", 
+        "name": "Day trade para iniciantes", 
+      },
     } 
 } 
 ``` 
@@ -32,4 +36,6 @@
 | data.lesson.id            | string | Id da aula                                       | 
 | data.lesson.name          | string | Nome da aula                                     | 
 | data.lesson.actionDate    | string | Data da ação                                     | 
+| data.course.id            | string | Id do curso                                      | 
+| data.course.name          | string | Nome do curso                                    |
 

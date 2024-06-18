@@ -17,7 +17,11 @@
       "comment": {
         "body": "Adorei a aula, espero conseguir aplicar os aprendizados!",
         "createdAt": "2024-06-12T12:00:10.000Z", 
-      }
+      },
+      "course": { 
+        "id": "25", 
+        "name": "Day trade para iniciantes", 
+      },
     } 
 } 
 ``` 
@@ -35,4 +39,6 @@
 | data.lesson.name          | string | Nome da aula                                | 
 | data.comment.body         | string | Conteúdo do comentário                      | 
 | data.comment.createdAt    | string | Data da criação do comentário               | 
+| data.course.id            | string | Id do curso                                 | 
+| data.course.name          | string | Nome do curso                               |
 
