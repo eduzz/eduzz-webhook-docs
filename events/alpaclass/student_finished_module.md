@@ -3,7 +3,6 @@
 ## Exemplo 
   
 ```json 
-
 { 
     "id": "4c832x3ynl8dwe7454941xzr5", 
     "event": "alpaclass.student_finished_module", 
@@ -16,15 +15,10 @@
       "module": { 
         "id": "54", 
         "name": "Módulo 1 charlatanismo inicial", 
-        "finishDate": "2024-06-12T12:00:10.000Z", 
+        "finishedAt": "2024-06-12T12:00:10.000Z", 
       },
-      "lesson": { 
-        "id": "168", 
-        "name": "Aula pix da gratidão", 
-      }, 
     } 
 } 
-
 ``` 
 
 ## Dados enviados 
@@ -40,6 +34,5 @@
 | data.student.name         | string | Nome do aluno                                    |
 | data.module.id            | number | Id do módulo                                     | 
 | data.module.name          | string | Nome do módulo                                   | 
-| data.module.finishDate    | string | Data da conclusão do módulo                      | 
-| data.lesson.id            | number | Id da aula                                       | 
-| data.lesson.name          | string | Nome da aula                                     | 
+| data.module.finishedAt    | string | Data da conclusão do módulo                      | 
+
