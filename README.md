@@ -60,7 +60,20 @@ Os eventos disponíveis atualmente são os seguintes:
     - **[notation_created](./events/nutror/notation_created.md)**
  
  - **AlpaClass**
-    - **[student_created](./events/alpaclass/student_created.md)**    
+    - **[student_created](./events/alpaclass/student_created.md)** 
+    - **[student_certificate_accessed](./events/alpaclass/student_certificate_accessed.md)** 
+    - **[student_comment_created](./events/alpaclass/student_comment_created.md)** 
+    - **[student_course_finished](./events/alpaclass/student_course_finished.md)** 
+    - **[student_course_unfinished](./events/alpaclass/student_course_unfinished.md)** 
+    - **[student_course_last_seen_at](./events/alpaclass/student_course_last_seen_at.md)** 
+    - **[student_module_finished](./events/alpaclass/student_module_finished.md)** 
+    - **[student_module_unfinished](./events/alpaclass/student_module_unfinished.md)** 
+    - **[student_lesson_finished](./events/alpaclass/student_lesson_finished.md)** 
+    - **[student_lesson_unfinished](./events/alpaclass/student_lesson_unfinished.md)** 
+    - **[student_lesson_marked_as_favorite](./events/alpaclass/student_lesson_marked_as_favorite.md)** 
+    - **[student_lesson_unmarked_as_favorite](./events/alpaclass/student_lesson_unmarked_as_favorite.md)** 
+    - **[student_lesson_last_seen_at](./events/alpaclass/student_lesson_last_seen_at.md)** 
+
    
 
 ## Como configurar um webhook
